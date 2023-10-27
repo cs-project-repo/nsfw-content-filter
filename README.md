@@ -26,4 +26,4 @@ To run this code, you can use Uvicorn with the following command:
 uvicorn app:app --host 127.0.0.1 --port 8001
 ```
 
-Once the server is up and running, you can access the API documentation and test the NSFW content filter in your browser at http://localhost:8001/docs. The API provides an endpoint for uploading images, and it returns a list of boolean values indicating whether each uploaded image contains NSFW content or not.
+Once the server is up and running, you can access the API documentation and test the NSFW content filter in your browser at http://localhost:8001/docs. The API provides an endpoint for uploading images, and it returns a list of boolean values indicating whether each uploaded image passes the NSFW filter or not.
